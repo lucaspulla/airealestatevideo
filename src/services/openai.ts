@@ -1,7 +1,7 @@
 import OpenAI from 'openai';
 
 // In a real application, you would use environment variables
-const apiKey = import.meta.env.VITE_OPENAI_API_KEY || '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';
+const apiKey = import.meta.env.VITE_OPENAI_API_KEY || 'YOUR OPEN AI KEY';
 
 const openai = new OpenAI({
   apiKey,
